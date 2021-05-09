@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listen to BTS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+</head>
+    
+<body>
+    <section class="nav_bar">       
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </section>
+    <header id="hero">
+        <div class="head">
+            <div class="head_title">
+                <h1 class="head_title_main">Hello, <span></span></h1>
+                <h1 class="head_title_main">Love music? <span></span></h1>
+                <h1 class="head_title_sub">tell me about your favourites then! <span></span></h1>
+                <a href="" class="btn">button</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="types">
+        <div class="types_row">
+            <div class="types_card">
+                <img src="https://img.icons8.com/fluent/100/000000/music-record.png"/>
+                <p class="types_card_details">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur temporibus quas assumenda rem sit expedita dolorem tenetur quia animi aut.</p>
+            </div>
+            <div class="types_card">
+                <img src="https://img.icons8.com/color/100/000000/boombox.png"/>
+                <p class="types_card_details">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur temporibus quas assumenda rem sit expedita dolorem tenetur quia animi aut.</p>
+            </div>
+            <div class="types_card">
+                <img src="https://img.icons8.com/cute-clipart/100/000000/headphones.png"/>
+                <p class="types_card_details">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur temporibus quas assumenda rem sit expedita dolorem tenetur quia animi aut.</p>
+            </div>
+            <div class="types_card">
+                <img src="https://img.icons8.com/fluent/100/000000/music-record.png"/>
+                <p class="types_card_details">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur temporibus quas assumenda rem sit expedita dolorem tenetur quia animi aut.</p>
+            </div>
+        </div>
+       
+    </section>
+
+    <section class="pictures">
+            <div class="picture_row">
+                <div class="picture_box">
+                    <div class="pic_container picture_1">
+                            <a href="" class="btn">button</a>
+                          </div>
+                    </div>
+                    <div class="pic_container picture_2">
+                        <a href="" class="btn">button</a>
+                      </div>
+                </div>
+                <div class="picture_box_1">
+                    <div class="pic_container picture_3">
+                        <a href="" class="btn">button</a>
+                      </div>
+                        <h1><span>"</span> Lorem ipsum, dolor sit amet consectetur adiplaboriosam?<span>"</span></h1></div>
+                </div>
+            </div>
+    </section>
+
+    <section class="video_play">
+        <div class="video_container">
+            <video autoplay muted loop id="myVideo">
+                <source src="images/video.mp4" type="video/mp4">
+              </video>
+        </div>
+        <div id="anime">
+            <div class="content">
+                <div class="content_title">
+                    <h1 class="content_title_main">Hello, <span></span></h1>
+                    <h1 class="content_title_main">Love music? <span></span></h1>
+                    <h1 class="content_title_sub">tell me about your favourites then! <span></span></h1>
+                    <button id="myBtn" onclick="myFunction()">Pause</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fix">
+        <div class="fixed_div">
+            <p class="fixed_details">I don't <br> even know what <br> I'm doing anymore TT</p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <table cellspacing="0" style="width:100%">
+            <tr><td>contact</td>
+            <td>Updates</td></tr>
+            <tr><td>gossips</td>
+            <td>news</td></tr>
+            <tr><td>details</td>
+            <td>poocha</td></tr>
+            <tr><td>contact</td>
+                <td>Updates</td></tr>
+                <tr><td>gossips</td>
+                <td>news</td></tr>
+                <tr><td>contact</td></tr>
+                <tr><td>details</td></tr>
+                <tr><td>chakka</td></tr>
+            
+          </table>
+          
+        <div class="social_media">
+            <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/>
+            <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
+            <img src="https://img.icons8.com/color/48/000000/google-logo.png"/>
+            <img src="https://img.icons8.com/fluent/48/000000/twitter.png"/>
+        </div>
+        <p>copyright tan</p>
+    </section>
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
+</body>
+</html>
